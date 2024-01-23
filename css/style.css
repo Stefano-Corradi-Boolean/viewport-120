@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+}
+.main-wrapper{
+  position: relative;
+  height: 100vh;
+  background-color: red;
+  /* i 100 vw comprendono la eventuale scrollbar laterale e rischiano di spaccare la pagina facendo apparire un scrollbar orizzontale */
+  width: 100vw;
+}
+
+.testo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* centro l'elemnto spostandolo  a sinistra e sopra per metà della sual larghezza e altezza  */
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+  width: 40%;
+  height: 300px;
+}
